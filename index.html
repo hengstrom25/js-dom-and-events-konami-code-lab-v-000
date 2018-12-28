@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
   </head>
-  <div id="solution" />
-  </div>
-  </div>
+
 
   <body>
+  <div id="solution" >
+  </div>
+  
     <script src="konami_code.js"></script>
 
     <!-- Run `learn` or `npm install` -->
@@ -24,6 +25,7 @@
     <script>
       mocha.setup('bdd');
     </script>
+    <script> init()</script>
     <script src="test/index-test.js"></script>
   </body>
 
